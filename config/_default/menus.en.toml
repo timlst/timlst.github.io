@@ -40,3 +40,7 @@
   name = "About"
   pageRef = "about"
   # weight = 10
+
+[[footer]]
+  name = "Privacy Policy"
+  pageRef = "privacy"
