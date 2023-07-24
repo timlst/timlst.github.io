@@ -1,37 +1,37 @@
+title = "timlst"
+logo = "img/logo.png"
+description = "My awesome website"
+dateFormat = "2 January 2006"
 languageCode = "en"
+
+[languages.en.params]
 languageName = "English"
 displayName = "EN"
 isoCode = "en"
 weight = 1
 rtl = false
 
-title = "timlst"
-logo = "img/logo.png"
-description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
-
-dateFormat = "2 January 2006"
 
 [author]
-  name = "Tim Storm"
-  image = ""
-  headline = "Computer science student at Paderborn University"
-  bio = "Cool guy"
-  links = [
-    { github = "https://github.com/timlst/" },
-    { email = "mailto:me@timlst.de" },
-    # { link = "https://timlst.de" },
-    { pgpkey = "/gpg.key" },
-  #   { discord = "https://discord.gg/invitecode" },
-  #   { gitlab = "https://gitlab.com/username" },
-  #   { instagram = "https://instagram.com/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
-  #   { orcid = "https://orcid.org/userid" },
-    # { reddit = "https://reddit.com/user/username" },
-  #   { researchgate = "https://www.researchgate.net/profile/username" },
-  #   { slack = "https://workspace.url/team/userid" },
-  #   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-  #   { steam = "https://steamcommunity.com/profiles/userid" },
-  #   { twitter = "https://twitter.com/username" },
-  #   { whatsapp = "https://wa.me/phone-number" },
-  ]
+name = "Tim Storm"
+image = ""
+headline = "Computer science student at Paderborn University"
+bio = "Cool guy"
+links = [
+{ github = "https://github.com/timlst/" },
+{ email = "mailto:me@timlst.de" },
+# { link = "https://timlst.de" },
+{ pgpkey = "/gpg.key" },
+#   { discord = "https://discord.gg/invitecode" },
+#   { gitlab = "https://gitlab.com/username" },
+#   { instagram = "https://instagram.com/username" },
+{ linkedin = "https://www.linkedin.com/in/timlst/" },
+#   { orcid = "https://orcid.org/userid" },
+# { reddit = "https://reddit.com/user/username" },
+#   { researchgate = "https://www.researchgate.net/profile/username" },
+#   { slack = "https://workspace.url/team/userid" },
+#   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+#   { steam = "https://steamcommunity.com/profiles/userid" },
+#   { twitter = "https://twitter.com/username" },
+#   { whatsapp = "https://wa.me/phone-number" },
+]
