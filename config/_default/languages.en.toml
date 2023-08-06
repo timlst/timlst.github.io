@@ -1,6 +1,6 @@
 title = "timlst"
 logo = "img/logo.png"
-description = "My awesome website"
+description = "Tim's personal website"
 dateFormat = "2 January 2006"
 languageCode = "en"
 
@@ -15,7 +15,7 @@ rtl = false
 [author]
 name = "Tim Storm"
 image = ""
-headline = "Computer science student at Paderborn University"
+headline = "Research Intern at CISPA"
 bio = "Cool guy"
 links = [
 { github = "https://github.com/timlst/" },
