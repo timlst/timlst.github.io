@@ -13,19 +13,20 @@ rtl = false
 
 
 [author]
-name = "Tim Storm"
-image = ""
+name = "Tim Leonhard Storm"
+image = "img/headshot.jpg"
 headline = "Research Intern at CISPA"
 bio = "Cool guy"
 links = [
-{ github = "https://github.com/timlst/" },
 { email = "mailto:me@timlst.de" },
-# { link = "https://timlst.de" },
 { pgpkey = "/gpg.key" },
+{ github = "https://github.com/timlst/" },
+{ linkedin = "https://www.linkedin.com/in/timlst/" },
+{ graduation-cap = "https://scholar.google.com/citations?hl=en&user=oIwNhIIAAAAJ" },
+# { link = "https://timlst.de" },
 #   { discord = "https://discord.gg/invitecode" },
 #   { gitlab = "https://gitlab.com/username" },
 #   { instagram = "https://instagram.com/username" },
-{ linkedin = "https://www.linkedin.com/in/timlst/" },
 #   { orcid = "https://orcid.org/userid" },
 # { reddit = "https://reddit.com/user/username" },
 #   { researchgate = "https://www.researchgate.net/profile/username" },
