@@ -15,7 +15,7 @@ rtl = false
 [author]
 name = "Tim Storm"
 image = ""
-headline = "Computer science student at Paderborn University"
+headline = "Research Intern at CISPA"
 bio = "Cool guy"
 links = [
 { github = "https://github.com/timlst/" },
@@ -25,7 +25,7 @@ links = [
 #   { discord = "https://discord.gg/invitecode" },
 #   { gitlab = "https://gitlab.com/username" },
 #   { instagram = "https://instagram.com/username" },
-{ linkedin = "https://www.linkedin.com/in/timlst/" },
+{ linkedin = "https://linkedin.com/in/username" },
 #   { orcid = "https://orcid.org/userid" },
 # { reddit = "https://reddit.com/user/username" },
 #   { researchgate = "https://www.researchgate.net/profile/username" },
