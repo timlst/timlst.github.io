@@ -19,7 +19,7 @@ headline = "Research Intern at CISPA"
 bio = "Cool guy"
 links = [
 { email = "mailto:me@timlst.de" },
-{ pgpkey = "/gpg.key" },
+{ pgpkey = "/gpg/" },
 { github = "https://github.com/timlst/" },
 { linkedin = "https://www.linkedin.com/in/timlst/" },
 { graduation-cap = "https://scholar.google.com/citations?hl=en&user=oIwNhIIAAAAJ" },
