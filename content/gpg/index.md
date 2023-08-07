@@ -1,6 +1,7 @@
 ---
 title: "My GPG key"
 date: "2023-08-07T14:30:24+01:00"
+draft: false
 layout: "simple"
 ---
 Download [gpg.key](/gpg.key) here or copy:
