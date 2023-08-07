@@ -1,7 +1,14 @@
 ---
-title: "Privacy"
+title: "Privacy Policy"
 date: 2023-04-12T22:01:59+02:00
 draft: false
+showAuthor: false
+showBreadcrumbs: false
+showPagination: false
+showReadingTime: false
+showWordCount: false
+showDate: false
+showEdit: false
 ---
 ## Hosting
 
