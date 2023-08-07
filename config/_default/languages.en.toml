@@ -1,16 +1,15 @@
 title = "timlst"
-logo = "img/logo.png"
-description = "Tim's personal website"
-dateFormat = "2 January 2006"
 languageCode = "en"
-
-[languages.en.params]
 languageName = "English"
+weight = 1
+
+[params]
 displayName = "EN"
 isoCode = "en"
-weight = 1
 rtl = false
-
+dateFormat = "2 January 2006"
+description = "Tim's personal website"
+logo = "img/logo.jpg"
 
 [author]
 name = "Tim Leonhard Storm"
