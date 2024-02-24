@@ -3,9 +3,8 @@ title: "About"
 date: 2023-01-03T16:22:22+01:00
 draft: false
 ---
-I am currently a research intern at [CISPA](https://cispa.de/en), the Helmholtz Center for Information Security.
-Before that, I graduated with a Bachelors in Computer Science from [Paderborn University](https://uni-paderborn.de).  
-My interests are in applied security research: Previously I have worked on TLS security, but currently I am exploring fuzzing for network protocols in the Holz group at CISPA.  
+I am a Master's student of Computer Science at [Paderborn University](https://uni-paderborn.de), where I am working with Prof.Dr-Ing. Juraj Somorovsky.  
+My interests are in applied security research: Currently I am doing stuff on TLS and e-mail, but previously I've explored the fuzzing of network protocols during my internship at [CISPA](https://cispa.de/en)
 In my freetime I enjoy baking pizza, sauna, anime and indoor plants. Also avid vim user.
 This website is a place for me to write about stuff I am interested in.
 
