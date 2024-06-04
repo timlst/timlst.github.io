@@ -51,7 +51,7 @@ jobs:
       - name: Download current CV
         uses: actions/download-artifact@v4
         with:
-          github_token: ${{ secrets.GH_PAT }}
+          github-token: ${{ secrets.GH_PAT }}
           path: assets/
           merge-multiple: true
           repository: timlst/cv
