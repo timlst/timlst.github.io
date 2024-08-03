@@ -32,6 +32,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.114.0
+    environment:
+      name: build
     steps:
       - name: Install Hugo CLI
         run: |
@@ -48,6 +50,13 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Download current CV
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ secrets.CV_ACCESS_TOKEN }}
+          path: assets/
+          merge-multiple: true
+          repository: timlst/cv
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -73,3 +82,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+    
