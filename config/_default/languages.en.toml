@@ -14,7 +14,7 @@ logo = "img/logo.jpg"
 [author]
 name = "Tim Leonhard Storm"
 image = "img/headshot.jpg"
-headline = "Computer Science student at Paderborn University"
+headline = "Computer Science Student at Paderborn University"
 bio = "Cool guy"
 links = [
 { email = "mailto:me@timlst.de" },

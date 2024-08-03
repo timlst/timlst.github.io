@@ -30,7 +30,7 @@ defaultBackgroundImage = "img/martinaise-wallpaper.jpg" # used as default for ba
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, hero, card, background, custom
+  layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/martinaise-wallpaper.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
@@ -47,8 +47,8 @@ defaultBackgroundImage = "img/martinaise-wallpaper.jpg" # used as default for ba
   showDateUpdated = false
   showAuthor = true
   showHero = true
-  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = false # only used when heroStyle equals background or thumbAndBackground
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
@@ -70,7 +70,7 @@ defaultBackgroundImage = "img/martinaise-wallpaper.jpg" # used as default for ba
 
 [list]
   #showHero = true
-  #heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   #layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   #layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
@@ -89,7 +89,7 @@ defaultBackgroundImage = "img/martinaise-wallpaper.jpg" # used as default for ba
 [taxonomy]
   showTermCount = true
   #showHero = true
-  #heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   #showViews = false
   #showLikes = false
@@ -98,7 +98,7 @@ defaultBackgroundImage = "img/martinaise-wallpaper.jpg" # used as default for ba
 
 [term]
   #showHero = true
-  #heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   #showViews = false
   #showLikes = false
@@ -106,29 +106,3 @@ defaultBackgroundImage = "img/martinaise-wallpaper.jpg" # used as default for ba
   #groupByYear = false
   #cardViewScreenWidth = false
   #cardView = false
-
-[firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
-
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
-
-[buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "Right"
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
