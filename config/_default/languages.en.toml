@@ -1,7 +1,9 @@
 title = "timlst"
-languageCode = "en"
-languageName = "English"
 weight = 1
+
+[languages.en]
+locale = "en"
+label = "English"
 
 [params]
 displayName = "EN"
@@ -14,7 +16,7 @@ logo = "img/logo.jpg"
 [author]
 name = "Tim Leonhard Storm"
 image = "img/headshot.jpg"
-headline = "Computer Science Student at Paderborn University"
+headline = "Incoming PhD Student at CISPA"
 bio = "Cool guy"
 links = [
 { email = "mailto:me@timlst.de" },
