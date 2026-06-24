@@ -13,27 +13,46 @@ dateFormat = "2 January 2006"
 description = "Tim's personal website"
 logo = "img/logo.jpg"
 
+[[params.author.links]]
+email = "tim@diestorms.de"
+
+[[params.author.links]]
+github = "https://github.com/timlst"
+
+[[params.author.links]]
+graduation-cap = "https://scholar.google.com/citations?user=oIwNhIIAAAAJ&hl=de"
+
+[[params.author.links]]
+linkedin = "https://www.linkedin.com/in/timlst/"
+
+[[params.author.links]]
+pgpkey = "/gpg/"
+
 [author]
 name = "Tim Leonhard Storm"
 image = "img/headshot.jpg"
 headline = "Incoming PhD Student at CISPA"
 bio = "Cool guy"
-links = [
-{ email = "mailto:me@timlst.de" },
-{ pgpkey = "/gpg/" },
-{ github = "https://github.com/timlst/" },
-{ linkedin = "https://www.linkedin.com/in/timlst/" },
-{ graduation-cap = "https://scholar.google.com/citations?hl=en&user=oIwNhIIAAAAJ" },
-#   { link = "https://timlst.de" },
-#   { discord = "https://discord.gg/invitecode" },
-#   { gitlab = "https://gitlab.com/username" },
-#   { instagram = "https://instagram.com/username" },
-#   { orcid = "https://orcid.org/userid" },
-#   { reddit = "https://reddit.com/user/username" },
-#   { researchgate = "https://www.researchgate.net/profile/username" },
-#   { slack = "https://workspace.url/team/userid" },
-#   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-#   { steam = "https://steamcommunity.com/profiles/userid" },
-#   { twitter = "https://twitter.com/username" },
-#   { whatsapp = "https://wa.me/phone-number" },
-]
+
+  [[author.links]]
+  email = "mailto:me@timlst.de"
+
+  [[author.links]]
+  pgpkey = "/gpg/"
+
+  [[author.links]]
+  github = "https://github.com/timlst/"
+
+  [[author.links]]
+  linkedin = "https://www.linkedin.com/in/timlst/"
+
+  [[author.links]]
+  graduation-cap = "https://scholar.google.com/citations?hl=en&user=oIwNhIIAAAAJ"
+
+["params.author"]
+name = "Tim Storm"
+email = "tim@diestorms.de"
+image = "headshot.jpg"
+imageQuality = ""
+headline = "Incoming PhD Student @ CISPA"
+bio = "cool guy"
